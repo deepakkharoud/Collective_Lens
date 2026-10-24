@@ -1,0 +1,222 @@
+{
+  "source": "samples\\collective_lens_capture.sqlite",
+  "kernel_count": 413,
+  "memcpy_event_count": 5,
+  "sum_kernel_duration_us": 2457.345,
+  "unique_kernel_names": 23,
+  "slowest_kernels": [
+    {
+      "name": "void sgemm_largek_lds64<(bool)1, (bool)0, (int)5, (int)5, (int)4, (int)4, (int)4, (int)34>(float *, const float *, const float *, int, int, int, int, int, int, const float *, const float *, float, float, int, int, int *, int *)",
+      "start_ns": 59462968113,
+      "end_ns": 59462998992,
+      "duration_us": 30.879,
+      "device_id": 0,
+      "stream_id": 7,
+      "correlation_id": 2119
+    },
+    {
+      "name": "void sgemm_largek_lds64<(bool)1, (bool)0, (int)5, (int)5, (int)4, (int)4, (int)4, (int)34>(float *, const float *, const float *, int, int, int, int, int, int, const float *, const float *, float, float, int, int, int *, int *)",
+      "start_ns": 59664058269,
+      "end_ns": 59664089085,
+      "duration_us": 30.816,
+      "device_id": 0,
+      "stream_id": 7,
+      "correlation_id": 7299
+    },
+    {
+      "name": "void sgemm_largek_lds64<(bool)1, (bool)0, (int)5, (int)5, (int)4, (int)4, (int)4, (int)34>(float *, const float *, const float *, int, int, int, int, int, int, const float *, const float *, float, float, int, int, int *, int *)",
+      "start_ns": 59660212431,
+      "end_ns": 59660242767,
+      "duration_us": 30.336,
+      "device_id": 0,
+      "stream_id": 7,
+      "correlation_id": 6529
+    },
+    {
+      "name": "void sgemm_largek_lds64<(bool)1, (bool)0, (int)5, (int)5, (int)4, (int)4, (int)4, (int)34>(float *, const float *, const float *, int, int, int, int, int, int, const float *, const float *, float, float, int, int, int *, int *)",
+      "start_ns": 59632076060,
+      "end_ns": 59632106364,
+      "duration_us": 30.304,
+      "device_id": 0,
+      "stream_id": 7,
+      "correlation_id": 3057
+    },
+    {
+      "name": "void sgemm_largek_lds64<(bool)1, (bool)0, (int)5, (int)5, (int)4, (int)4, (int)4, (int)34>(float *, const float *, const float *, int, int, int, int, int, int, const float *, const float *, float, float, int, int, int *, int *)",
+      "start_ns": 59658578852,
+      "end_ns": 59658609156,
+      "duration_us": 30.304,
+      "device_id": 0,
+      "stream_id": 7,
+      "correlation_id": 6144
+    },
+    {
+      "name": "void sgemm_largek_lds64<(bool)1, (bool)0, (int)5, (int)5, (int)4, (int)4, (int)4, (int)34>(float *, const float *, const float *, int, int, int, int, int, int, const float *, const float *, float, float, int, int, int *, int *)",
+      "start_ns": 59633915173,
+      "end_ns": 59633945476,
+      "duration_us": 30.303,
+      "device_id": 0,
+      "stream_id": 7,
+      "correlation_id": 3827
+    },
+    {
+      "name": "void sgemm_largek_lds64<(bool)1, (bool)0, (int)5, (int)5, (int)4, (int)4, (int)4, (int)34>(float *, const float *, const float *, int, int, int, int, int, int, const float *, const float *, float, float, int, int, int *, int *)",
+      "start_ns": 59656003462,
+      "end_ns": 59656033765,
+      "duration_us": 30.303,
+      "device_id": 0,
+      "stream_id": 7,
+      "correlation_id": 5374
+    },
+    {
+      "name": "void sgemm_largek_lds64<(bool)1, (bool)0, (int)5, (int)5, (int)4, (int)4, (int)4, (int)34>(float *, const float *, const float *, int, int, int, int, int, int, const float *, const float *, float, float, int, int, int *, int *)",
+      "start_ns": 59632988145,
+      "end_ns": 59633018416,
+      "duration_us": 30.271,
+      "device_id": 0,
+      "stream_id": 7,
+      "correlation_id": 3442
+    },
+    {
+      "name": "void sgemm_largek_lds64<(bool)1, (bool)0, (int)5, (int)5, (int)4, (int)4, (int)4, (int)34>(float *, const float *, const float *, int, int, int, int, int, int, const float *, const float *, float, float, int, int, int *, int *)",
+      "start_ns": 59653127595,
+      "end_ns": 59653157835,
+      "duration_us": 30.24,
+      "device_id": 0,
+      "stream_id": 7,
+      "correlation_id": 4604
+    },
+    {
+      "name": "void sgemm_largek_lds64<(bool)1, (bool)0, (int)5, (int)5, (int)4, (int)4, (int)4, (int)34>(float *, const float *, const float *, int, int, int, int, int, int, const float *, const float *, float, float, int, int, int *, int *)",
+      "start_ns": 59661883481,
+      "end_ns": 59661913721,
+      "duration_us": 30.24,
+      "device_id": 0,
+      "stream_id": 7,
+      "correlation_id": 6914
+    },
+    {
+      "name": "void sgemm_largek_lds64<(bool)1, (bool)0, (int)5, (int)5, (int)4, (int)4, (int)4, (int)34>(float *, const float *, const float *, int, int, int, int, int, int, const float *, const float *, float, float, int, int, int *, int *)",
+      "start_ns": 59630886892,
+      "end_ns": 59630917100,
+      "duration_us": 30.208,
+      "device_id": 0,
+      "stream_id": 7,
+      "correlation_id": 2672
+    },
+    {
+      "name": "void sgemm_largek_lds64<(bool)1, (bool)0, (int)5, (int)5, (int)4, (int)4, (int)4, (int)34>(float *, const float *, const float *, int, int, int, int, int, int, const float *, const float *, float, float, int, int, int *, int *)",
+      "start_ns": 59654734198,
+      "end_ns": 59654764406,
+      "duration_us": 30.208,
+      "device_id": 0,
+      "stream_id": 7,
+      "correlation_id": 4989
+    },
+    {
+      "name": "void sgemm_largek_lds64<(bool)1, (bool)0, (int)5, (int)5, (int)4, (int)4, (int)4, (int)34>(float *, const float *, const float *, int, int, int, int, int, int, const float *, const float *, float, float, int, int, int *, int *)",
+      "start_ns": 59665800327,
+      "end_ns": 59665830534,
+      "duration_us": 30.207,
+      "device_id": 0,
+      "stream_id": 7,
+      "correlation_id": 7684
+    },
+    {
+      "name": "void sgemm_largek_lds64<(bool)1, (bool)0, (int)5, (int)5, (int)4, (int)4, (int)4, (int)34>(float *, const float *, const float *, int, int, int, int, int, int, const float *, const float *, float, float, int, int, int *, int *)",
+      "start_ns": 59645819562,
+      "end_ns": 59645849706,
+      "duration_us": 30.144,
+      "device_id": 0,
+      "stream_id": 7,
+      "correlation_id": 4219
+    },
+    {
+      "name": "void sgemm_largek_lds64<(bool)1, (bool)0, (int)5, (int)5, (int)4, (int)4, (int)4, (int)34>(float *, const float *, const float *, int, int, int, int, int, int, const float *, const float *, float, float, int, int, int *, int *)",
+      "start_ns": 59657284981,
+      "end_ns": 59657315125,
+      "duration_us": 30.144,
+      "device_id": 0,
+      "stream_id": 7,
+      "correlation_id": 5759
+    }
+  ],
+  "kernel_name_summary": [
+    {
+      "name": "void sgemm_largek_lds64<(bool)1, (bool)0, (int)5, (int)5, (int)4, (int)4, (int)4, (int)34>(float *, const float *, const float *, int, int, int, int, int, int, const float *, const float *, float, float, int, int, int *, int *)",
+      "count": 15,
+      "total_duration_us": 454.907
+    },
+    {
+      "name": "void cutlass::Kernel2<cutlass_80_simt_sgemm_64x64_8x5_nt_align1>(T1::Params)",
+      "count": 30,
+      "total_duration_us": 310.68499999999995
+    },
+    {
+      "name": "void at::native::<unnamed>::multi_tensor_apply_kernel<at::native::<unnamed>::TensorListScalarListMetadata<float, (int)3>, at::native::<unnamed>::PointwiseOpScalarListFunctor<float, (int)3, (int)3, (int)0>, std::divides<float>>(T1, T2, T3...)",
+      "count": 15,
+      "total_duration_us": 181.56300000000002
+    },
+    {
+      "name": "void cutlass::Kernel2<cutlass_80_simt_sgemm_64x64_8x5_tn_align1>(T1::Params)",
+      "count": 15,
+      "total_duration_us": 171.03699999999995
+    },
+    {
+      "name": "void at::native::<unnamed>::multi_tensor_apply_kernel<at::native::<unnamed>::TensorListMetadata<(int)2>, at::native::<unnamed>::UnaryOpFunctor<float, (int)2, (int)1, (int)1>, at::native::Sqrt<float>>(T1, T2, T3...)",
+      "count": 15,
+      "total_duration_us": 144.76600000000002
+    },
+    {
+      "name": "void cutlass::Kernel2<cutlass_80_simt_sgemm_64x64_8x5_nn_align1>(T1::Params)",
+      "count": 15,
+      "total_duration_us": 142.912
+    },
+    {
+      "name": "void at::native::<unnamed>::multi_tensor_apply_kernel<at::native::<unnamed>::TensorListScalarListMetadata<float, (int)1>, at::native::<unnamed>::BinaryOpScalarListFunctor<float, (int)1, (int)1, (int)0>, std::divides<float>>(T1, T2, T3...)",
+      "count": 15,
+      "total_duration_us": 139.516
+    },
+    {
+      "name": "void at::native::<unnamed>::multi_tensor_apply_kernel<at::native::<unnamed>::TensorListMetadata<(int)2>, at::native::<unnamed>::TernaryOpScalarFunctor<float, (int)2, (int)2, (int)0>, at::native::LerpFunctor<float>, float>(T1, T2, T3...)",
+      "count": 15,
+      "total_duration_us": 135.583
+    },
+    {
+      "name": "void at::native::<unnamed>::multi_tensor_apply_kernel<at::native::<unnamed>::TensorListMetadata<(int)3>, at::native::<unnamed>::PointwiseOpScalarFunctor<float, (int)3, (int)3, (int)0>, std::multiplies<float>, float>(T1, T2, T3...)",
+      "count": 15,
+      "total_duration_us": 130.71800000000002
+    },
+    {
+      "name": "void at::native::<unnamed>::multi_tensor_apply_kernel<at::native::<unnamed>::TensorListMetadata<(int)1>, at::native::<unnamed>::BinaryOpScalarFunctor<float, (int)1, (int)1, (int)0>, std::multiplies<float>, float>(T1, T2, T3...)",
+      "count": 15,
+      "total_duration_us": 118.687
+    },
+    {
+      "name": "void at::native::<unnamed>::multi_tensor_apply_kernel<at::native::<unnamed>::TensorListMetadata<(int)1>, at::native::<unnamed>::BinaryOpScalarFunctor<float, (int)1, (int)1, (int)0>, std::plus<float>, float>(T1, T2, T3...)",
+      "count": 15,
+      "total_duration_us": 115.90300000000002
+    },
+    {
+      "name": "void at::native::reduce_kernel<(int)128, (int)4, at::native::ReduceOp<float, at::native::func_wrapper_t<float, at::native::sum_functor<float, float, float>::operator ()(at::TensorIterator &)::[lambda(float, float) (instance 1)]>, unsigned int, float, (int)4, (int)4>>(T3)",
+      "count": 30,
+      "total_duration_us": 75.32600000000001
+    },
+    {
+      "name": "void at::native::<unnamed>::distribution_elementwise_grid_stride_kernel<float, (int)4, void at::native::templates::cuda::normal_and_transform<float, float, at::CUDAGeneratorImpl *, void at::native::templates::cuda::normal_kernel<at::CUDAGeneratorImpl *>(const at::TensorBase &, double, double, T1)::[lambda() (instance 1)]::operator ()() const::[lambda() (instance 2)]::operator ()() const::[lambda(float) (instance 1)]>(at::TensorIteratorBase &, T3, T4)::[lambda(curandStatePhilox4_32_10 *) (instance 2)], void at::native::<unnamed>::distribution_nullary_kernel<float, float, float4, at::CUDAGeneratorImpl *, void at::native::templates::cuda::normal_and_transform<float, float, at::CUDAGeneratorImpl *, void at::native::templates::cuda::normal_kernel<at::CUDAGeneratorImpl *>(const at::TensorBase &, double, double, T1)::[lambda() (instance 1)]::operator ()() const::[lambda() (instance 2)]::operator ()() const::[lambda(float) (instance 1)]>(at::TensorIteratorBase &, T3, T4)::[lambda(curandStatePhilox4_32_10 *) (instance 2)], void at::native::templates::cuda::normal_kernel<at::CUDAGeneratorImpl *>(const at::TensorBase &, double, double, T1)::[lambda() (instance 1)]::operator ()() const::[lambda() (instance 2)]::operator ()() const::[lambda(float) (instance 1)]>(at::TensorIteratorBase &, T4, const T5 &, T6)::[lambda(int, float) (instance 1)]>(long long, at::PhiloxCudaState, T3, T4)",
+      "count": 30,
+      "total_duration_us": 70.08
+    },
+    {
+      "name": "void cublasLt::splitKreduce_kernel<(int)32, (int)16, int, float, float, float, float, (bool)0, float, float, float, (bool)1, (bool)0, (bool)0>(cublasLt::cublasSplitKParams<T6>, const T4 *, const T10 *, T9 *, T5 *, const T6 *, const T6 *, const T11 *, const T4 *, T11 *, void *, long long, T6 *, int *, T6 *, T6 *, const T6 *, const T6 *, const T6 *, const T6 *, const T6 *)",
+      "count": 15,
+      "total_duration_us": 51.679
+    },
+    {
+      "name": "void at::native::reduce_kernel<(int)512, (int)1, at::native::ReduceOp<float, at::native::MeanOps<float, float, float, float>, unsigned int, float, (int)4, (int)4>>(T3)",
+      "count": 15,
+      "total_duration_us": 39.26299999999999
+    }
+  ],
+  "interpretation_note": "Kernel durations may overlap across streams. Their sum is not GPU wall-clock time or utilization. This single-GPU report alone cannot establish a distributed-training communication bottleneck."
+}
