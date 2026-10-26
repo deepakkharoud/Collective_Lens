@@ -1,0 +1,52 @@
+{
+  "source": "samples\\collective_lens_capture.sqlite",
+  "analysis_type": "single_gpu_kernel_analysis",
+  "findings": [
+    {
+      "id": "F001",
+      "severity": "info",
+      "title": "GPU kernel activity captured",
+      "evidence": [
+        "Kernel events: 413",
+        "Unique kernel names: 23",
+        "Memory-copy events: 5",
+        "Summed kernel duration: 2457.34 µs"
+      ],
+      "recommendation": "Compare equivalent workloads across repeated runs. Summed event durations are not wall-clock runtime."
+    },
+    {
+      "id": "F002",
+      "severity": "info",
+      "title": "Longest individual GPU kernel",
+      "evidence": [
+        "Kernel: void sgemm_largek_lds64<(bool)1, (bool)0, (int)5, (int)5, (int)4, (int)4, (int)4, (int)34>(float *, const float *, const float *, int, int, int, int, int, int, const float *, const float *, float, float, int, int, int *, int *)",
+        "Duration: 30.879 µs",
+        "GPU device: 0",
+        "Stream: 7",
+        "Correlation ID: 2119"
+      ],
+      "recommendation": "Inspect this kernel in the timeline and compare its duration across repeated runs. Being the longest kernel does not by itself prove it is a bottleneck."
+    },
+    {
+      "id": "F003",
+      "severity": "info",
+      "title": "Kernel with highest reported cumulative duration",
+      "evidence": [
+        "Kernel: void sgemm_largek_lds64<(bool)1, (bool)0, (int)5, (int)5, (int)4, (int)4, (int)4, (int)34>(float *, const float *, const float *, int, int, int, int, int, int, const float *, const float *, float, float, int, int, int *, int *)",
+        "Occurrences: 15",
+        "Summed duration: 454.907 µs"
+      ],
+      "recommendation": "Check whether this kernel dominates equivalent runs. Cumulative durations can include overlapping events."
+    },
+    {
+      "id": "F004",
+      "severity": "unknown",
+      "title": "Distributed bottleneck not yet assessed",
+      "evidence": [
+        "The supplied report contains GPU kernel statistics.",
+        "Cross-rank timing and collective evidence are not established by these metrics alone."
+      ],
+      "recommendation": "For distributed diagnosis, collect traces from multiple ranks and correlate iteration timing, collective operations, and rank arrival times."
+    }
+  ]
+}
